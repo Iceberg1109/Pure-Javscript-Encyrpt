@@ -19,7 +19,7 @@
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
 <script type="text/javascript">
-  var encrypted = CryptoJS.AES.encrypt("smartdev1109@outlook.com", "Secret Passphrase");
+  var encrypted = CryptoJS.AES.encrypt("Message", "Secret Passphrase");
   //U2FsdGVkX18ZUVvShFSES21qHsQEqZXMxQ9zgHy+bu0=
 
   var decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase");
